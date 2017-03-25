@@ -89,6 +89,11 @@
     </dependencyManagement>
 
     <dependencies>
+	    <dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>9.5</version>
+</dependency>
         <!-- Import the CDI API, we use provided scope as the API is included in JBoss EAP 6 -->
         <dependency>
             <groupId>javax.enterprise</groupId>
